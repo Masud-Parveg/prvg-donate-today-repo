@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .top-secton {
     background-image: url(images/flood-top\ banner.jpg);
     background-repeat: no-repeat;
@@ -15,12 +17,18 @@
     margin-right: 10%;
 
 }
-.text-color {
+.help-color {
+    color:red;
+    font-size: 70px;
+}
+.tex-color {
     color: crimson;
+    font-family: 'Roboto', sans-serif;
 
 }
 .top-paragrap {
     text-align: center;
+    text-align: justify;
     color: white;
     margin-top: 0;
     margin-left: 10%;

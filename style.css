@@ -29,6 +29,7 @@
     margin-bottom: 0;
 }
 .donate-button {
+    font-size: 30px;
     color: black;
     background-image: linear-gradient(orange,tomato);
     text-decoration: none;
@@ -47,9 +48,17 @@
 }
 .section-02 h1 {
     font-size: 40px;
+    
+}
+.section-02 p {
+    text-align: center;
+    margin: 0 30%;
 }
 .section-03 {
     display: flex;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .section-03 h1 {
     font-size: 40px;
@@ -59,11 +68,9 @@
 #amount-box h1 {
     border:solid red; 
 }
-.section-02 p {
-    text-align: center;
-    margin: 0 30%;
-}
+
 #other-amount {
+    border: none;
     text-align: center;
     color: gray;
 }
@@ -75,7 +82,7 @@
 }
 .donate-plan p {
     text-align: center;
-    margin: 0 30%;
+    margin: 50px 30%;
 }
 .section-04 {
     display: flex;
@@ -98,21 +105,60 @@
 .section-05 {
     display: flex;
     margin: 100px 10%;
-
     
 }
 .section-05 h1 {
+    font-size: 40px;
+    margin-top: 30px;
 
 }
 .section-05 p {
+    margin-right: 8%;
 
 }
 .section-05 img {
-    width: 800px;
+    width: 750px;
 
+}
+.button-how-to-help-01 {
+    font-size: 30px;
+    color: black;
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left:0;
+    border: 20px 40px;
+    border-radius: 5px;
+    padding: 2%;
 }
 .section-06 {
     display: flex;
+    margin: 100px 10%;
+}
+.section-06 h1 {
+    margin-left: 8%;
+    font-size: 40px;
+    margin-top: 30px;
+
+}
+.section-06 p {
+    margin-left: 8%;
+
+}
+.section-06 img {
+    width: 750px;
+    margin-left: 40px;
+}
+.button-how-to-help-02 {
+    font-size: 30px;
+    color: black;
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left:40px;
+    border: 20px 40px;
+    border-radius: 5px;
+    padding: 2%;
 }
 .section-07 {
     display: flex;
@@ -136,7 +182,7 @@
     font-size: 20px;
     color: white;
     background-image: linear-gradient(tomato, orange);
-    text-decoration:none;
+    text-decoration: none;
     border-radius: 3px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -149,4 +195,6 @@
     border: solid black;
     background-color: black;
  }
-    
+.section-08 h1{
+    color: red;
+}
